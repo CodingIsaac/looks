@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container {
+    /* border: 2px solid rgb(235, 51, 51); */
+   
+    background-image: url(/Images/christmas-g73ae7d32d_1920.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 1px 15% 4px 15%;
+}.content-container {
+    display: block;
+    /* flex-direction: column; */
+    color: rgb(255, 255, 255);
+    /* justify-content:space-around; */
+    /* align-items: center; */
+     text-align: center;  
+    opacity: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    position: static;
+
+
+}
+a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+}
+.narrator-container {
+    /* border: 2px solid rgb(240, 239, 239); */
+    
+    margin-top:2%;
+    height: 40vh;
+    
+}
+.story {
+    font-size: 4rem;
+    font-family: ltc-bodoni-175;
+    font-size: 110px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: -.01em;
+    line-height: 1em;
+    color: #fff;
+}
+.fist-content {
+    margin: 2px 5rem 10px 5rem;
+    font-family: europa;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.4em;
+    text-transform: none;
+    letter-spacing: .04em;
+    color: #fff;
+}
+.second-content {
+    letter-spacing: .5px;
+    font-family: europa;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.4em;
+    text-transform: none;
+    letter-spacing: .04em;
+    color: #fff;
+}
+.button-hero {
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin: 1vh 0 ;
+    
+}
+.hero{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+    padding: 0 0.9rem;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-tag {
+    margin-top: 10px;
+    color: rgb(243, 243, 243);
+    /* border: 3px solid red; */
+    padding: 3px;
+    
+} 
